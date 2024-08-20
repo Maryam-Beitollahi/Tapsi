@@ -7,6 +7,19 @@
   padding: 0;
   /*list-style: none;*/
 }
+@font-face {
+  font-family: "iranYekan";
+  font-weight: 400;
+  font-style: none;
+  src: url(/assets/fonts/IRANYekanWeb.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "iranYekan";
+  font-weight: 700;
+  font-style: none;
+  src: url(/assets/fonts/IRANYekanWeb\ Bold.woff2) format(woff2);
+}
 
 /* Root  */
 :root {
@@ -29,6 +42,11 @@ body {
   color: var(--color--body);
   font-size: 1.4rem;
   line-height: 1.7;
+}
+
+body,
+.btn {
+  font-family: "iranYekan";
 }
 
 h1,
